@@ -1,0 +1,36 @@
+.board {
+    border: 5px solid black;
+    width:600px;
+    height:600px;
+}
+
+.column {
+    width: 600px;
+    height: 200px;
+    display: table;
+}
+
+.box {
+    display: table-cell;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #999;
+    font-size: 190px;
+    font-weight: bold;
+    line-height: 190px;
+    height: 200px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+}
+
+.sidebar {
+    float: left;
+    padding-left: 20px;
+    font-size: 50px;
+}
+
+.boardAndSideBarWrapper {
+    display: flex;
+    flex-direction: row;  
+}
